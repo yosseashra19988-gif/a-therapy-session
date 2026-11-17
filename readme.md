@@ -1,4 +1,4 @@
-# 🧠 Autonomous Multi-Agent Therapy Simulation
+# Autonomous Multi-Agent Therapy Simulation
 
 An enterprise-grade, multi-agent AI architecture simulating a live, 60-minute clinical therapy session. 
 
@@ -6,7 +6,7 @@ Most AI chat applications simply pass a growing chat history back and forth betw
 
 Instead of just generating dialogue, the agents analyze subtext, formulate clinical strategies, trigger psychological defense mechanisms, and compress their own memory *before* speaking a single word.
 
-## 🚀 The AI Pipeline (The "Code Sandwich")
+## The AI Pipeline
 
 The simulation runs in a continuous time-stepped loop, powered by 5 specialized agents:
 
@@ -16,7 +16,7 @@ The simulation runs in a continuous time-stepped loop, powered by 5 specialized 
 4. **Patient Actor (Execution Agent):** Reads the Subconscious directive and acts it out, complete with physical tics and emotional deflections.
 5. **Memory Archivist (State Manager):** Solves the infinite context-window problem. It extracts core clinical facts and lore from the dialogue, compressing it into a persistent JSON database (`Patient_memory`). The reasoning agents only read this compressed file, keeping token costs near zero.
 
-## 🛠️ Tech Stack & Engineering Features
+## Tech Stack & Engineering Features
 * **Language:** Python 3.11
 * **AI Integration:** Google GenAI SDK (`google.genai`)
 * **Data Validation:** Pydantic v2 (Strict JSON Schema adherence)
